@@ -1,0 +1,9 @@
+API keys, Authentication, Environment variables and sending SMS
+
+
+Using API that requires Authentication:
+API Key - It is used to track access    
+Whenever you are using API, the most important thing is to read the documentation.
+
+
+6e9139b8391a09da7139442b56ffd198
