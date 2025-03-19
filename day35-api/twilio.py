@@ -1,11 +1,11 @@
 import requests
 from twilio.rest import Client
 
-account_sid = "AC4914033bcc83f7c3e31c11e7856fa6bb"
-auth_token = "5cdc91d8c6d7c922d6ebe9f7056722fd"
-test_auth_token = "57898ad823d422c3d3b42f5784a069a1"
-api_key = "SK23763700c929f5b905a4b9ab0dd9e415"
-secret_key = "QBblswpHkbato9GDwd0h4K4R2sJTS6jf"
+account_sid = config("ACCOUNT_sid")
+auth_token = config("ACCOUNT_sid")
+test_auth_token = config("ACCOUNT_sid")
+api_key = config("ACCOUNT_sid")
+secret_key = config("ACCOUNT_sid")
 
 parameters = {
     "lat": 51.50735,
